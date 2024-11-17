@@ -42,13 +42,9 @@ http://stream.tvcdn.net/spor/bein-sports-haber.m3u8
 #EXTINF:-1 tvg-id="FBTV.tr" tvg-logo="http://assets.tvcdn.net/bf46ecf5-390b-42d0-8599-8b48b23f3bc8.png" group-title="Spor",FB TV
 http://stream.tvcdn.net/spor/fb-tv.m3u8
 #EXTINF:-1 tvg-name="S SPORT" tvg-language="Turkish" tvg-country="TR" tvg-id="Spor_SSPORT" tvg-logo="https://itv224226.tmp.tivibu.com.tr:6430/images/poster/20230302923239.png" group-title="Spor",S SPORT
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5)
-#EXTVLCOPT:http-referrer=https://trgoals1020.xyz/
-https://3.trgoalshls97.shop/yayinss.m3u8
+https://m3usweet-pine-740e.ahmedisess17.workers.dev/live/ss1/index.m3u8?token=ILJXkayNTctoMlk2z_JQtw&tms=1731965835
 #EXTINF:-1 tvg-name="S SPORT 2" tvg-language="Turkish" tvg-country="TR" tvg-id="Spor_SSPORT2" tvg-logo="https://itv224226.tmp.tivibu.com.tr:6430/images/poster/20230302923321.png" group-title="Spor",S SPORT 2
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5)
-#EXTVLCOPT:http-referrer=https://trgoals1020.xyz/
-https://3.trgoalshls97.shop/yayinss2.m3u8
+https://lives.anystreamrectv3.live/live/ssport2.m3u8?token=ILJXkayNTctoMlk2z_JQtw&tms=1731965835
 #EXTINF:-1 tvg-name="beIN SPORTS" tvg-language="Turkish" tvg-country="TR" tvg-id="Spor_beINSPORTS" tvg-logo="https://www.thesportsdb.com/images/media/channel/logo/5rhmw31628798883.png" group-title="Spor",beIN SPORTS
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5)
 #EXTVLCOPT:http-referrer=https://trgoals1020.xyz/
