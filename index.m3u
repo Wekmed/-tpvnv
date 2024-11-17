@@ -42,8 +42,6 @@ http://stream.tvcdn.net/spor/bein-sports-haber.m3u8
 #EXTINF:-1 tvg-id="FBTV.tr" tvg-logo="http://assets.tvcdn.net/bf46ecf5-390b-42d0-8599-8b48b23f3bc8.png" group-title="Spor",FB TV
 http://stream.tvcdn.net/spor/fb-tv.m3u8
 #EXTINF:-1 tvg-name="S SPORT"tvg-id="Spor_SSPORT"tvg-logo="https://itv224226.tmp.tivibu.com.tr:6430/images/poster/20230302923239.png"group-title="Spor":http-referrer="https://trgoals1020.xyz/":http-user-agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5)",S SPORT
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5)
-#EXTVLCOPT:http-referrer=https://trgoals1020.xyz/
 https://alpha.cf-worker-e9afe9d888f3992b.workers.dev/live/s-sport/playlist.m3u8
 #EXTINF:-1 tvg-name="S SPORT 2"tvg-id="Spor_SSPORT2"tvg-logo="https://itv224226.tmp.tivibu.com.tr:6430/images/poster/20230302923321.png"group-title="Spor":http-referrer="https://trgoals1020.xyz/":http-user-agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5)",S SPORT 2
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5)
