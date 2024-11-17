@@ -49,7 +49,7 @@ https://3.trgoalshls97.shop/yayinss.m3u8
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5)
 #EXTVLCOPT:http-referrer=https://trgoals1035.xyz/
 https://3.trgoalshls97.shop/yayinss2.m3u8
-#EXTINF:-1 tvg-name="beIN SPORTS" tvg-language="Turkish" tvg-country="TR" tvg-id="Spor_beINSPORTS" tvg-logo="https://www.thesportsdb.com/images/media/channel/logo/5rhmw31628798883.png" group-title="Spor",beIN SPORTS
+#EXTINF:-1 tvg-name="beIN SPORTS 1" tvg-language="Turkish" tvg-country="TR" tvg-id="Spor_beINSPORTS" tvg-logo="https://www.thesportsdb.com/images/media/channel/logo/5rhmw31628798883.png" group-title="Spor",beIN SPORTS
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5)
 #EXTVLCOPT:http-referrer=https://trgoals1035.xyz/
 https://3.trgoalshls97.shop/yayinzirve.m3u8
@@ -65,6 +65,10 @@ https://3.trgoalshls97.shop/yayinb3.m3u8
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5)
 #EXTVLCOPT:http-referrer=https://trgoals1035.xyz/
 https://3.trgoalshls97.shop/yayinb4.m3u8
+#EXTINF:-1 tvg-name="beIN SPORTS 5" tvg-language="Turkish" tvg-country="TR" tvg-id="Spor_beINSPORTS5" tvg-logo="https://i.imgur.com/iRKfaee.png" group-title="Spor",beIN SPORTS 5
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5)
+#EXTVLCOPT:http-referrer=https://trgoals1037.xyz/
+https://3.trgoalshls97.shop/yayinb5.m3u8
 #EXTINF:-1 tvg-name="Tabii Spor  FHD"tvg-id=""tvg-logo="https://i.hizliresim.com/sz3c49o.png"group-title="Spor":http-referrer="":http-user-agent="",Tabii Spor  FHD
 https://m3usweet-pine-740e.ahmedisess17.workers.dev/live/tabi/index.m3u8?token=-lmsm6qrkR6uUYA1NU5K1w&tms=1731789667
 #EXTINF:-1 tvg-name="Tabii Spor 1 FHD"tvg-id=""tvg-logo="https://i.hizliresim.com/g47c3yg.png"group-title="Spor":http-referrer="":http-user-agent="",Tabii Spor 1 FHD
@@ -79,6 +83,10 @@ https://cdn.srectv2.xyz/live/tabi4/index.m3u8?token=cTSNX1dc9kooDPSJ5jLhPg&tms=1
 https://cdn.srectv2.xyz/live/tabi5/index.m3u8?token=J1hjyyGlZVlwLZk67zLShA&tms=1730670278
 #EXTINF:-1 tvg-name="Tabii Spor 6 FHD"tvg-id=""tvg-logo="https://i.hizliresim.com/qhniszr.png"group-title="Spor":http-referrer="":http-user-agent="",Tabii Spor 6 FHD
 https://cdn.srectv2.xyz/live/tabi6/index.m3u8?token=J1hjyyGlZVlwLZk67zLShA&tms=1730670278
+#EXTINF:-1 tvg-name="EXXEN "tvg-id="Spor_EXXEN"tvg-logo="https://play-lh.googleusercontent.com/iLiuTI58upyx6l3mhOpk6HFZr0Cb3xPIhQEcIyMmVraplcbdVRfm0L8lxql2t9g5Yw"group-title="Spor":http-referrer="https://trgoals910.xyz/":http-user-agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5)",EXXEN
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5)
+#EXTVLCOPT:http-referrer=https://trgoals910.xyz/
+https://uno.53bcc5ec13d72fd5.click/p/f2XX9QypRAJk2xigZd4/4011/a.cf-worker-bdc7813512eed06f.workers.dev/chunklist_hd.m3u8
 #EXTINF:-1 tvg-name="Kemal Sunal" tvg-language="Turkish" tvg-country="TR" tvg-id="icerik_KemalSunal" tvg-logo="https://i.ytimg.com/vi/lDI6Lbxhz6Y/hqdefault.jpg" group-title="İçerik",Kemal Sunal
 https://ythls.kekikakademi.org/youtube/channel/UCoIUysIrvGxoDw-GkdOGjRw.m3u8
 #EXTINF:-1 tvg-name="Güldür Güldür" tvg-language="Turkish" tvg-country="TR" tvg-id="icerik_GuldurGuldur" tvg-logo="https://i.ytimg.com/vi/JX5mSkUfxmk/hqdefault.jpg" group-title="İçerik",Güldür Güldür
