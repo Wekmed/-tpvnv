@@ -109,11 +109,9 @@ https://sSToObkb93QGEjJfkP4ny7nXD.medya.trt.com.tr/master.m3u8
 https://ythls.kekikakademi.org/youtube/channel/UCoIUysIrvGxoDw-GkdOGjRw.m3u8
 #EXTINF:-1 tvg-name="Güldür Güldür" tvg-language="Turkish" tvg-country="TR" tvg-id="icerik_GuldurGuldur" tvg-logo="https://i.ytimg.com/vi/JX5mSkUfxmk/hqdefault.jpg" group-title="İçerik",Güldür Güldür
 https://ythls.kekikakademi.org/youtube/channel/UCdlEXiVLTEvA280oyMvr8Kw.m3u8
-#EXTINF:-1 tvg-name="İşler Güçler" tvg-language="Turkish" tvg-country="TR" tvg-id="icerik_islerGucler" tvg-logo="https://i.ytimg.com/vi/So3gvma5Fmc/hqdefault.jpg" group-title="İçerik",İşler Güçler
-https://ythls.kekikakademi.org/youtube/channel/UCALHvpjqmBwdRwYPc3qVezw.m3u8
-#EXTINF:-1 tvg-name="Sinema Aksiyon "tvg-id=""tvg-logo="https://www.tvyayinakisi.com/wp-content/uploads/2020/05/sinema-aksiyon.png"group-title="Sinema ":http-referrer="":http-user-agent="",Sinema Aksiyon
-https://lives.anystreamrectv3.live/live/aks2.m3u8?token=DeRswaUAEgfj6fn8BKZVzw&tms=1731167650
-#EXTINF:-1 tvg-name="Sinema Animasyon "tvg-id=""tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRQ5ToLxGwrhed7ICKQWDA-bkVb5mPgiGLFbA&s"group-title="Sinema  ":http-referrer="":http-user-agent="",Sinema Animasyon
-https://lives.anystreamrectv3.live/live/anim1.m3u8?token=d2QQYe4RVrBz_zTXyqvZDA&tms=1731015064
-#EXTINF:-1 tvg-name="Sinema Bilim Kurgu "tvg-id=""tvg-logo="https://www.cumhuriyet.com.tr/thumbs/558x338/Archive/2024/2/20/2177487/kapak_124341.jpg"group-title="Sinema  ":http-referrer="":http-user-agent="",Sinema Bilim Kurgu
-https://lives.anystreamrectv3.live/live/bil1.m3u8?token=DeRswaUAEgfj6fn8BKZVzw&tms=1731167650
+#EXTINF:-1 tvg-id="" tvg-name="TR: MAX Animasyon HD" tvg-logo="https://raw.githubusercontent.com/bulutdev/Sinemapicon/main/max.png" group-title="TR - SINEMA",TR: MAX Animasyon HD
+http://blacksixtythree.tv:8080/Serdarsat/MDyq31Qu7T/1885
+#EXTINF:-1 tvg-id="" tvg-name="TR: MAX Aksion HD" tvg-logo="https://raw.githubusercontent.com/bulutdev/Sinemapicon/main/max.png" group-title="TR - SINEMA",TR: MAX Aksion HD
+http://blacksixtythree.tv:8080/Serdarsat/MDyq31Qu7T/1609
+#EXTINF:-1 tvg-id="" tvg-name="TR: MAX Aksiyon 2 HD" tvg-logo="https://raw.githubusercontent.com/bulutdev/Sinemapicon/main/max.png" group-title="TR - SINEMA",TR: MAX Aksiyon 2 HD
+http://blacksixtythree.tv:8080/Serdarsat/MDyq31Qu7T/1525
