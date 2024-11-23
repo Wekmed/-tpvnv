@@ -21,8 +21,8 @@ http://stream.tvcdn.net/eglence/tv8-5.m3u8
 http://stream.tvcdn.net/eglence/dmax.m3u8
 #EXTINF:-1 tvg-id="TLC.tr" tvg-logo="http://assets.tvcdn.net/9871d781-b961-45cc-a287-c304f02bef1d.png" group-title="EÄŸlence",TLC
 http://stream.tvcdn.net/eglence/tlc.m3u8
-#EXTINF:-1 tvg-id="CNBCe.tr" tvg-logo="http://assets.tvcdn.net/4371c426-66c5-4452-ba3e-439a0718a997.png" group-title="Ekonomi",CNBC-e
-http://stream.tvcdn.net/ekonomi/cnbc-e.m3u8
+#EXTINF:-1 tvg-name="CNBC-e" tvg-language="Turkish" tvg-country="TR" tvg-id="Haber_CNBC-e" tvg-logo="https://s.cnbce.com/dist/images/logo.png" group-title="Genel",CNBC-e (Youtube)
+https://ythls.kekikakademi.org/youtube/channel/UCaO-M1dXacMwtyg0Pvovk4w.m3u8
 #EXTINF:-1 tvg-name="Discovery Channel [ HD ]"tvg-id=""tvg-logo="https://i.hizliresim.com/848h7ka.png"group-title="Belgesel":http-referrer="":http-user-agent="",Discovery Channel [ HD ]
 https://lives.anystreamrectv3.live/live/discovery.m3u8?token=_r-dsxsAKmCc9fzAINBDBA&tms=1730748913
 #EXTINF:-1 tvg-id="TRTBelgesel.tr" tvg-logo="http://assets.tvcdn.net/1da7293b-5598-4e00-a5f8-3bd327af9467.png" group-title="Belgesel",TRT Belgesel
