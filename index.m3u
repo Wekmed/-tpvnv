@@ -23,8 +23,10 @@ http://stream.tvcdn.net/eglence/dmax.m3u8
 http://stream.tvcdn.net/eglence/tlc.m3u8
 #EXTINF:-1 tvg-name="CNBC-e" tvg-language="Turkish" tvg-country="TR" tvg-id="Haber_CNBC-e" tvg-logo="https://s.cnbce.com/dist/images/logo.png" group-title="Genel",CNBC-e (Youtube)
 https://ythls.kekikakademi.org/youtube/channel/UCaO-M1dXacMwtyg0Pvovk4w.m3u8
-#EXTINF:-1 tvg-name="Discovery Channel [ HD ]"tvg-id=""tvg-logo="https://i.hizliresim.com/848h7ka.png"group-title="Belgesel":http-referrer="":http-user-agent="",Discovery Channel [ HD ]
-https://lives.anystreamrectv3.live/live/discovery.m3u8?token=_r-dsxsAKmCc9fzAINBDBA&tms=1730748913
+#EXTINF:-1 tvg-id="National Geographic" tvg-name="TR: NATIONAL GEO HD" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/national-geographic-it.png" group-title="TR - BELGESEL",TR: NATIONAL GEO HD
+http://blacksixtythree.tv:8080/Serdarsat/MDyq31Qu7T/1391
+#EXTINF:-1 tvg-id="Discovery Channel" tvg-name="TR: DISCOVERY CHANNEL HD" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/discovery-channel-it.png" group-title="TR - BELGESEL",TR: DISCOVERY CHANNEL HD
+http://blacksixtythree.tv:8080/Serdarsat/MDyq31Qu7T/81
 #EXTINF:-1 tvg-id="TRTBelgesel.tr" tvg-logo="http://assets.tvcdn.net/1da7293b-5598-4e00-a5f8-3bd327af9467.png" group-title="Belgesel",TRT Belgesel
 http://stream.tvcdn.net/belgesel/trt-belgesel.m3u8
 #EXTINF:-1 tvg-id="NTV.tr" tvg-logo="http://assets.tvcdn.net/b2aa3114-53bd-4ff5-81ed-af75a28e651f.png" group-title="Haber",NTV
