@@ -50,6 +50,8 @@ http://blacksixtythree.tv:8080/Serdarsat/MDyq31Qu7T/1656
 #EXTINF:-1 tvg-name="S SPORT 2" tvg-language="Turkish" tvg-country="TR" tvg-id="Spor_SSPORT2" tvg-logo="https://itv224226.tmp.tivibu.com.tr:6430/images/poster/20230302923321.png" group-title="Spor",S SPORT 2
 https://lives.anystreamrectv3.live/live/ssport2.m3u8?token=ILJXkayNTctoMlk2z_JQtw&tms=1731965835
 #EXTINF:-1 tvg-name="beIN SPORTS"tvg-id="24TV.tr"tvg-logo="https://www.thesportsdb.com/images/media/channel/logo/5rhmw31628798883.png"group-title="Spor":http-referrer="https://trgoals1024.xyz/":http-user-agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5)",beIN SPORTS
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5)
+#EXTVLCOPT:http-referrer=https://trgoals1024.xyz/
 https://11.trgoalshls1.cfd/yayinb4.m3u8
 #EXTINF:-1 tvg-id="beIN SPORTS 2" tvg-name="TR: beIN SPORTS 2 HD" tvg-logo="https://raw.githubusercontent.com/casanovaXBMC/picons-IPTV/master/Turkey/beIn/beINSports2HD.png" group-title="TR - SPOR",TR: beIN SPORTS 2 HD
 http://blacksixtythree.tv:8080/Serdarsat/MDyq31Qu7T/1947
