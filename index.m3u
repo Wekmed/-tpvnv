@@ -56,6 +56,7 @@ http://blacksixtythree.tv:8080/Serdarsat/MDyq31Qu7T/1947
 #EXTINF:-1 tvg-id="beIN SPORTS 3" tvg-name="TR: beIN SPORTS 3 HD" tvg-logo="https://raw.githubusercontent.com/casanovaXBMC/picons-IPTV/master/Turkey/beIn/beINSports3HD.png" group-title="TR - SPOR",TR: beIN SPORTS 3 HD
 http://blacksixtythree.tv:8080/Serdarsat/MDyq31Qu7T/1249
 #EXTINF:-1 tvg-id="beIN SPORTS 4" tvg-name="TR: beIN SPORTS 4 HD" tvg-logo="https://raw.githubusercontent.com/casanovaXBMC/picons-IPTV/master/Turkey/beIn/beINSports4HD.png" group-title="TR - SPOR",TR: beIN SPORTS 4 HD
+#EXTVLCOPT:http-referrer=https://trgoals1024.xyz/
 https://11.trgoalshls1.cfd/yayinb4.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="TR: BEIN SPORTS 5 FHD" tvg-logo="https://raw.githubusercontent.com/bulutdev/Sinemapicon/main/beinsport5.png" group-title="TR - SPOR",TR: BEIN SPORTS 5 FHD
 http://blacksixtythree.tv:8080/Serdarsat/MDyq31Qu7T/39327
