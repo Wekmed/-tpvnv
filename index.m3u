@@ -21,6 +21,10 @@ http://stream.tvcdn.net/eglence/tv8-5.m3u8
 http://stream.tvcdn.net/eglence/dmax.m3u8
 #EXTINF:-1 tvg-id="TLC" tvg-logo="http://assets.tvcdn.net/9871d781-b961-45cc-a287-c304f02bef1d.png" group-title="EÄŸlence",TLC
 http://stream.tvcdn.net/eglence/tlc.m3u8
+#EXTINF:-1 tvg-id="National Geographic" tvg-name="TR: NATIONAL GEO HD" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/national-geographic-it.png" group-title="TR - BELGESEL",TR: NATIONAL GEO HD
+http://blacksixtythree.tv:8080/Serdarsat/MDyq31Qu7T/1391
+#EXTINF:-1 tvg-id="Discovery Channel" tvg-name="TR: DISCOVERY CHANNEL HD" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/discovery-channel-it.png" group-title="TR - BELGESEL",TR: DISCOVERY CHANNEL HD
+http://blacksixtythree.tv:8080/Serdarsat/MDyq31Qu7T/81
 #EXTINF:-1 tvg-id="CNBCe.tr" tvg-logo="http://assets.tvcdn.net/4371c426-66c5-4452-ba3e-439a0718a997.png" group-title="Ekonomi",CNBC-e
 http://stream.tvcdn.net/ekonomi/cnbc-e.m3u8
 #EXTINF:-1 tvg-id="TRT BELGESEL HD" tvg-logo="http://assets.tvcdn.net/1da7293b-5598-4e00-a5f8-3bd327af9467.png" group-title="Belgesel",TRT Belgesel
@@ -31,6 +35,8 @@ http://stream.tvcdn.net/haber/ntv.m3u8
 http://stream.tvcdn.net/haber/trt-haber.m3u8
 #EXTINF:-1 tvg-name="SÖZCÜ TV" tvg-language="Turkish" tvg-country="TR" tvg-id="Haber_SozcuTV" tvg-logo="https://www.evrensel.net/upload/dosya/231375.jpg" group-title="Haber",Sözcü TV
 https://ythls.kekikakademi.org/youtube/channel/UCOulx_rep5O4i9y6AyDqVvw.m3u8
+#EXTINF:-1 tvg-id="" tvg-name="TR: EKOL TV HD" tvg-logo="" group-title="TR - HABER",TR: EKOL TV HD
+http://blacksixtythree.tv:8080/Serdarsat/MDyq31Qu7T/67336
 #EXTINF:-1 tvg-id="HABERTÜRK HD" tvg-logo="http://assets.tvcdn.net/9fbfa842-0fff-488a-aab7-d534dbbfe8a9.png" group-title="Haber",Habertürk
 http://stream.tvcdn.net/haber/haberturk.m3u8
 #EXTINF:-1 tvg-id="TRT SPOR HD" tvg-logo="http://assets.tvcdn.net/98d69f74-e6dc-4d4a-95c6-666683834a28.png" group-title="Spor",TRT Spor
