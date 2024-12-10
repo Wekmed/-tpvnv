@@ -24,7 +24,7 @@ http://stream.tvcdn.net/eglence/tlc.m3u8
 #EXTINF:-1 tvg-id="NATIONAL GEOGRAPHIC HD" tvg-name="TR: NATIONAL GEO HD" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/national-geographic-it.png" group-title="TR - BELGESEL",TR: NATIONAL GEO HD
 http://blacksixtythree.tv:8080/Serdarsat/MDyq31Qu7T/1391
 #EXTINF:-1 tvg-id="DISCOVERY CHANNEL HD" tvg-name="TR: DISCOVERY CHANNEL HD" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/discovery-channel-it.png" group-title="TR - BELGESEL",TR: DISCOVERY CHANNEL HD
-http://blacksixtythree.tv:8080/Serdarsat/MDyq31Qu7T/81
+http://megaott.live:8080/5456465/6576567/3939
 #EXTINF:-1 tvg-id="CNBCe.tr" tvg-logo="http://assets.tvcdn.net/4371c426-66c5-4452-ba3e-439a0718a997.png" group-title="Ekonomi",CNBC-e
 http://stream.tvcdn.net/ekonomi/cnbc-e.m3u8
 #EXTINF:-1 tvg-id="TRT BELGESEL HD" tvg-logo="http://assets.tvcdn.net/1da7293b-5598-4e00-a5f8-3bd327af9467.png" group-title="Belgesel",TRT Belgesel
@@ -52,13 +52,13 @@ http://blacksixtythree.tv:8080/Serdarsat/MDyq31Qu7T/1656
 #EXTINF:-1 tvg-id="S SPORT 2" tvg-name="TR: S SPORT 2 HD" tvg-logo="https://raw.githubusercontent.com/bulutdev/Sinemapicon/main/ssport2.png" group-title="TR - SPOR",TR: S SPORT 2 HD
 http://blacksixtythree.tv:8080/Serdarsat/MDyq31Qu7T/698
 #EXTINF:-1 tvg-name="beIN SPORTS 1" tvg-id="beIN SPORTS 1"tvg-logo="https://www.thesportsdb.com/images/media/channel/logo/5rhmw31628798883.png"group-title="Spor":http-referrer="https://trgoals1024.xyz/":http-user-agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5)",beIN SPORTS
-https://dt-live-int.akamaized.net/int/beinsports01_int/beinsports01_int.isml/playlist.m3u8?hdnts=ip=88.245.195.8~st=1705525200~exp=1733656814~acl=/*~id=ac50936650_1733581214530~hmac=38e2c652b1d8aaa818e4a5e26e6e968cd17aabc2f8b0f1a1c39b80ba2dacadde
+http://megaott.live:8080/5456465/6576567/3887
 #EXTINF:-1 tvg-id="beIN SPORTS 2" tvg-name="TR: beIN SPORTS 2 HD" tvg-logo="https://raw.githubusercontent.com/casanovaXBMC/picons-IPTV/master/Turkey/beIn/beINSports2HD.png" group-title="TR - SPOR",TR: beIN SPORTS 2 HD
-http://dt-live-int.akamaized.net/int/beinsports02/beinsports02.isml/playlist.m3u8?hdnts=ip=88.245.195.8~st=1733563800~exp=1733576340~acl=/*~id=ac50936650_1733583258005~hmac=afdd5d575b2ced082033124b29981ab7836a3433184a54201aa149dead85d233
+http://megaott.live:8080/5456465/6576567/3890
 #EXTINF:-1 tvg-id="beIN SPORTS 3" tvg-name="TR: beIN SPORTS 3 HD" tvg-logo="https://raw.githubusercontent.com/casanovaXBMC/picons-IPTV/master/Turkey/beIn/beINSports3HD.png" group-title="TR - SPOR",TR: beIN SPORTS 3 HD
-http://blacksixtythree.tv:8080/Serdarsat/MDyq31Qu7T/1249
+http://megaott.live:8080/5456465/6576567/3891
 #EXTINF:-1 tvg-id="beIN SPORTS 4" tvg-name="TR: beIN SPORTS 4 HD" tvg-logo="https://raw.githubusercontent.com/casanovaXBMC/picons-IPTV/master/Turkey/beIn/beINSports4HD.png" group-title="TR - SPOR",TR: beIN SPORTS 4 HD
-http://blacksixtythree.tv:8080/Serdarsat/MDyq31Qu7T/1956
+http://megaott.live:8080/5456465/6576567/3892
 #EXTINF:-1 tvg-name="Tabii Spor  FHD"tvg-id=""tvg-logo="https://i.hizliresim.com/sz3c49o.png"group-title="Spor":http-referrer="":http-user-agent="",Tabii Spor  FHD
 https://SFTVrkiJ6Gb1UvNIrPbo8cSGY.medya.trt.com.tr/master.m3u8
 #EXTINF:-1 tvg-name="Tabii Spor 1 FHD"tvg-id=""tvg-logo="https://i.hizliresim.com/g47c3yg.png"group-title="Spor":http-referrer="":http-user-agent="",Tabii Spor 1 FHD
