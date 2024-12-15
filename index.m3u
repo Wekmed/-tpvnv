@@ -21,44 +21,40 @@ http://stream.tvcdn.net/eglence/tv8-5.m3u8
 http://stream.tvcdn.net/eglence/dmax.m3u8
 #EXTINF:-1 tvg-id="TLC" tvg-logo="http://assets.tvcdn.net/9871d781-b961-45cc-a287-c304f02bef1d.png" group-title="EÄŸlence",TLC
 http://stream.tvcdn.net/eglence/tlc.m3u8
-#EXTINF:-1 tvg-id="NATIONAL GEOGRAPHIC HD" tvg-name="TR: NATIONAL GEO HD" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/national-geographic-it.png" group-title="TR - BELGESEL",TR: NATIONAL GEO HD
-http://blacksixtythree.tv:8080/Serdarsat/MDyq31Qu7T/1391
-#EXTINF:-1 tvg-id="DISCOVERY CHANNEL HD" tvg-name="TR: DISCOVERY CHANNEL HD" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/discovery-channel-it.png" group-title="TR - BELGESEL",TR: DISCOVERY CHANNEL HD
-http://megaott.live:8080/5456465/6576567/3939
 #EXTINF:-1 tvg-id="CNBCe.tr" tvg-logo="http://assets.tvcdn.net/4371c426-66c5-4452-ba3e-439a0718a997.png" group-title="Ekonomi",CNBC-e
-http://stream.tvcdn.net/ekonomi/cnbc-e.m3u8
-#EXTINF:-1 tvg-id="TRT BELGESEL HD" tvg-logo="http://assets.tvcdn.net/1da7293b-5598-4e00-a5f8-3bd327af9467.png" group-title="Belgesel",TRT Belgesel
-http://stream.tvcdn.net/belgesel/trt-belgesel.m3u8
+https://cnbc-e-live.ercdn.net/cnbce/cnbce_720p.m3u8
+#EXTINF:-1 tvg-name="Güldür Güldür" tvg-language="Turkish" tvg-country="TR" tvg-id="icerik_GuldurGuldur" tvg-logo="https://i.ytimg.com/vi/JX5mSkUfxmk/hqdefault.jpg" group-title="İçerik",Güldür Güldür
+https://ythls.kekikakademi.org/youtube/channel/UCdlEXiVLTEvA280oyMvr8Kw.m3u8
+#EXTINF:-1 tvg-name="Kemal Sunal" tvg-language="Turkish" tvg-country="TR" tvg-id="icerik_KemalSunal" tvg-logo="https://i.ytimg.com/vi/lDI6Lbxhz6Y/hqdefault.jpg" group-title="İçerik",Kemal Sunal
+https://ythls.kekikakademi.org/youtube/channel/UCHumSHRFQ8skiHTY75sxytQ.m3u8
 #EXTINF:-1 tvg-id="NTV HD" tvg-logo="http://assets.tvcdn.net/b2aa3114-53bd-4ff5-81ed-af75a28e651f.png" group-title="Haber",NTV
 http://stream.tvcdn.net/haber/ntv.m3u8
 #EXTINF:-1 tvg-id="TRT HABER HD" tvg-logo="http://assets.tvcdn.net/ecbd3154-e8e7-44d7-bcbd-a9bcac9df4de.png" group-title="Haber",TRT Haber
 http://stream.tvcdn.net/haber/trt-haber.m3u8
 #EXTINF:-1 tvg-name="SÖZCÜ TV" tvg-language="Turkish" tvg-country="TR" tvg-id="Haber_SozcuTV" tvg-logo="https://www.evrensel.net/upload/dosya/231375.jpg" group-title="Haber",Sözcü TV
 https://ythls.kekikakademi.org/youtube/channel/UCOulx_rep5O4i9y6AyDqVvw.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="TR: EKOL TV HD" tvg-logo="" group-title="TR - HABER",TR: EKOL TV HD
-http://blacksixtythree.tv:8080/Serdarsat/MDyq31Qu7T/67336
 #EXTINF:-1 tvg-id="HABERTÜRK HD" tvg-logo="http://assets.tvcdn.net/9fbfa842-0fff-488a-aab7-d534dbbfe8a9.png" group-title="Haber",Habertürk
 http://stream.tvcdn.net/haber/haberturk.m3u8
 #EXTINF:-1 tvg-id="TRT SPOR HD" tvg-logo="http://assets.tvcdn.net/98d69f74-e6dc-4d4a-95c6-666683834a28.png" group-title="Spor",TRT Spor
 http://stream.tvcdn.net/spor/trt-spor.m3u8
-#EXTINF:-1 tvg-id="TRT SPOR YILDIZ tvg-logo="http://assets.tvcdn.net/27f74187-ef2a-4928-9515-77422081119c.png" group-title="Spor",TRT Spor Yıldız
+#EXTINF:-1 tvg-id="TRT SPOR YILDIZ tvg-logo="https://cdn-i.pr.trt.com.tr/trttv/w750/h750/q100/11290418.png" group-title="Spor",TRT Spor Yıldız
 http://stream.tvcdn.net/spor/trt-spor-yildiz.m3u8
 #EXTINF:-1 tvg-id="beINSportsHaber.tr" tvg-logo="http://assets.tvcdn.net/9177b1f3-4eee-4215-b304-7c76ee2d0c7a.png" group-title="Spor",beIN Sports Haber
-http://stream.tvcdn.net/spor/bein-sports-haber.m3u8
+https://ythls.kekikakademi.org/youtube/video/VCl1wO81VdM.m3u8
 #EXTINF:-1 tvg-id="FB TV" tvg-logo="http://assets.tvcdn.net/bf46ecf5-390b-42d0-8599-8b48b23f3bc8.png" group-title="Spor",FB TV
 http://stream.tvcdn.net/spor/fb-tv.m3u8
 #EXTINF:-1 tvg-id="S SPORT" tvg-name="TR: S SPORT HD" tvg-logo="https://raw.githubusercontent.com/bulutdev/Sinemapicon/main/ssport2.png" group-title="TR - SPOR",TR: S SPORT HD
-http://blacksixtythree.tv:8080/Serdarsat/MDyq31Qu7T/1656
+https://m0.trgoalshls29.cfd/yayinss.m3u8|referer=https://trgoals1069.xyz/
 #EXTINF:-1 tvg-id="S SPORT 2" tvg-name="TR: S SPORT 2 HD" tvg-logo="https://raw.githubusercontent.com/bulutdev/Sinemapicon/main/ssport2.png" group-title="TR - SPOR",TR: S SPORT 2 HD
-http://blacksixtythree.tv:8080/Serdarsat/MDyq31Qu7T/698
+https://m0.trgoalshls29.cfd/yayinss2.m3u8|referer=https://trgoals1069.xyz/
 #EXTINF:-1 tvg-name="beIN SPORTS 1" tvg-id="beIN SPORTS 1"tvg-logo="https://www.thesportsdb.com/images/media/channel/logo/5rhmw31628798883.png"group-title="Spor":http-referrer="https://trgoals1024.xyz/":http-user-agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5)",beIN SPORTS
-http://megaott.live:8080/5456465/6576567/3887
+https://m0.trgoalshls29.cfd/yayinzirve.m3u8|referer=https://trgoals1069.xyz/
 #EXTINF:-1 tvg-id="beIN SPORTS 2" tvg-name="TR: beIN SPORTS 2 HD" tvg-logo="https://raw.githubusercontent.com/casanovaXBMC/picons-IPTV/master/Turkey/beIn/beINSports2HD.png" group-title="TR - SPOR",TR: beIN SPORTS 2 HD
-http://megaott.live:8080/5456465/6576567/3890
+https://m0.trgoalshls29.cfd/yayinb2.m3u8|referer=https://trgoals1069.xyz/
 #EXTINF:-1 tvg-id="beIN SPORTS 3" tvg-name="TR: beIN SPORTS 3 HD" tvg-logo="https://raw.githubusercontent.com/casanovaXBMC/picons-IPTV/master/Turkey/beIn/beINSports3HD.png" group-title="TR - SPOR",TR: beIN SPORTS 3 HD
-http://megaott.live:8080/5456465/6576567/3891
+https://m0.trgoalshls29.cfd/yayinb3.m3u8|referer=https://trgoals1069.xyz/
 #EXTINF:-1 tvg-id="beIN SPORTS 4" tvg-name="TR: beIN SPORTS 4 HD" tvg-logo="https://raw.githubusercontent.com/casanovaXBMC/picons-IPTV/master/Turkey/beIn/beINSports4HD.png" group-title="TR - SPOR",TR: beIN SPORTS 4 HD
-http://megaott.live:8080/5456465/6576567/3892
+https://m0.trgoalshls29.cfd/yayinb4.m3u8|referer=https://trgoals1069.xyz/
 #EXTINF:-1 tvg-name="Tabii Spor  FHD"tvg-id=""tvg-logo="https://i.hizliresim.com/sz3c49o.png"group-title="Spor":http-referrer="":http-user-agent="",Tabii Spor  FHD
 https://SFTVrkiJ6Gb1UvNIrPbo8cSGY.medya.trt.com.tr/master.m3u8
 #EXTINF:-1 tvg-name="Tabii Spor 1 FHD"tvg-id=""tvg-logo="https://i.hizliresim.com/g47c3yg.png"group-title="Spor":http-referrer="":http-user-agent="",Tabii Spor 1 FHD
@@ -73,57 +69,3 @@ https://ditvZPcGdZNWyfx6nCH4hhP69.medya.trt.com.tr/master.m3u8
 https://BHf7hmM8Y9RRHoFCa70k2nkF5.medya.trt.com.tr/master.m3u8
 #EXTINF:-1 tvg-name="Tabii Spor 6 FHD"tvg-id=""tvg-logo="https://i.hizliresim.com/qhniszr.png"group-title="Spor":http-referrer="":http-user-agent="",Tabii Spor 6 FHD
 https://sSToObkb93QGEjJfkP4ny7nXD.medya.trt.com.tr/master.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="TR: MAX Vizyon HD" tvg-logo="https://raw.githubusercontent.com/bulutdev/Sinemapicon/main/max.png" group-title="TR - SINEMA",TR: MAX Vizyon HD
-http://blacksixtythree.tv:8080/Serdarsat/MDyq31Qu7T/1824
-#EXTINF:-1 tvg-id="" tvg-name="TR: MAX Vizyon 3 HD" tvg-logo="https://raw.githubusercontent.com/bulutdev/Sinemapicon/main/max.png" group-title="TR - SINEMA",TR: MAX Vizyon 3 HD
-http://blacksixtythree.tv:8080/Serdarsat/MDyq31Qu7T/1758
-#EXTINF:-1 tvg-id="" tvg-name="TR: MAX Vizyon 2 HD" tvg-logo="https://raw.githubusercontent.com/bulutdev/Sinemapicon/main/max.png" group-title="TR - SINEMA",TR: MAX Vizyon 2 HD
-http://blacksixtythree.tv:8080/Serdarsat/MDyq31Qu7T/851
-#EXTINF:-1 tvg-id="" tvg-name="TR: MAX Turk HD" tvg-logo="https://raw.githubusercontent.com/bulutdev/Sinemapicon/main/max.png" group-title="TR - SINEMA",TR: MAX Turk HD
-http://blacksixtythree.tv:8080/Serdarsat/MDyq31Qu7T/247
-#EXTINF:-1 tvg-id="" tvg-name="TR: MAX Star Wars HD" tvg-logo="https://raw.githubusercontent.com/bulutdev/Sinemapicon/main/max.png" group-title="TR - SINEMA",TR: MAX Star Wars HD
-http://blacksixtythree.tv:8080/Serdarsat/MDyq31Qu7T/2293
-#EXTINF:-1 tvg-id="" tvg-name="TR: MAX HD" tvg-logo="https://raw.githubusercontent.com/bulutdev/Sinemapicon/main/max.png" group-title="TR - SINEMA",TR: MAX HD
-http://blacksixtythree.tv:8080/Serdarsat/MDyq31Qu7T/1816
-#EXTINF:-1 tvg-id="" tvg-name="TR: MAX Kino Collection HD" tvg-logo="https://raw.githubusercontent.com/bulutdev/Sinemapicon/main/max.png" group-title="TR - SINEMA",TR: MAX Kino Collection HD
-http://blacksixtythree.tv:8080/Serdarsat/MDyq31Qu7T/642
-#EXTINF:-1 tvg-id="" tvg-name="TR: MAX Gold HD" tvg-logo="https://raw.githubusercontent.com/bulutdev/Sinemapicon/main/max.png" group-title="TR - SINEMA",TR: MAX Gold HD
-http://blacksixtythree.tv:8080/Serdarsat/MDyq31Qu7T/515
-#EXTINF:-1 tvg-id="" tvg-name="TR: MAX Premier HD" tvg-logo="https://raw.githubusercontent.com/bulutdev/Sinemapicon/main/max.png" group-title="TR - SINEMA",TR: MAX Premier HD
-http://blacksixtythree.tv:8080/Serdarsat/MDyq31Qu7T/671
-#EXTINF:-1 tvg-id="" tvg-name="TR: MAX Animasyon HD" tvg-logo="https://raw.githubusercontent.com/bulutdev/Sinemapicon/main/max.png" group-title="TR - SINEMA",TR: MAX Animasyon HD
-http://blacksixtythree.tv:8080/Serdarsat/MDyq31Qu7T/1885
-#EXTINF:-1 tvg-id="" tvg-name="TR: MAX Animasyon 2 HD" tvg-logo="https://raw.githubusercontent.com/bulutdev/Sinemapicon/main/max.png" group-title="TR - SINEMA",TR: MAX Animasyon 2 HD
-http://blacksixtythree.tv:8080/Serdarsat/MDyq31Qu7T/742
-#EXTINF:-1 tvg-id="" tvg-name="TR: MAX 007 HD" tvg-logo="https://raw.githubusercontent.com/bulutdev/Sinemapicon/main/max.png" group-title="TR - SINEMA",TR: MAX 007 HD
-http://blacksixtythree.tv:8080/Serdarsat/MDyq31Qu7T/1944
-#EXTINF:-1 tvg-id="" tvg-name="TR: MAX 4K UHD" tvg-logo="https://raw.githubusercontent.com/bulutdev/Sinemapicon/main/max.png" group-title="TR - SINEMA",TR: MAX 4K UHD
-http://blacksixtythree.tv:8080/Serdarsat/MDyq31Qu7T/202
-#EXTINF:-1 tvg-id="" tvg-name="TR: MAX Orjinal HD" tvg-logo="https://raw.githubusercontent.com/bulutdev/Sinemapicon/main/max.png" group-title="TR - SINEMA",TR: MAX Orjinal HD
-http://blacksixtythree.tv:8080/Serdarsat/MDyq31Qu7T/63
-#EXTINF:-1 tvg-id="" tvg-name="TR: MAX Vizyon 4 HD" tvg-logo="https://raw.githubusercontent.com/bulutdev/Sinemapicon/main/max.png" group-title="TR - SINEMA",TR: MAX Vizyon 4 HD
-http://blacksixtythree.tv:8080/Serdarsat/MDyq31Qu7T/2429
-#EXTINF:-1 tvg-id="" tvg-name="TR: MAX Aksion HD" tvg-logo="https://raw.githubusercontent.com/bulutdev/Sinemapicon/main/max.png" group-title="TR - SINEMA",TR: MAX Aksion HD
-http://blacksixtythree.tv:8080/Serdarsat/MDyq31Qu7T/1609
-#EXTINF:-1 tvg-id="" tvg-name="TR: MAX Aksiyon 2 HD" tvg-logo="https://raw.githubusercontent.com/bulutdev/Sinemapicon/main/max.png" group-title="TR - SINEMA",TR: MAX Aksiyon 2 HD
-http://blacksixtythree.tv:8080/Serdarsat/MDyq31Qu7T/1525
-#EXTINF:-1 tvg-id="" tvg-name="TR: DIGIMAX 1 HD" tvg-logo="https://raw.githubusercontent.com/bulutdev/Sinemapicon/main/digimax.png" group-title="TR - SINEMA",TR: DIGIMAX 1 HD
-http://blacksixtythree.tv:8080/Serdarsat/MDyq31Qu7T/2249
-#EXTINF:-1 tvg-id="" tvg-name="TR: DIGIMAX 2 HD" tvg-logo="https://raw.githubusercontent.com/bulutdev/Sinemapicon/main/digimax.png" group-title="TR - SINEMA",TR: DIGIMAX 2 HD
-http://blacksixtythree.tv:8080/Serdarsat/MDyq31Qu7T/1978
-#EXTINF:-1 tvg-id="" tvg-name="TR: DiGiMAX ANIMASYON HD" tvg-logo="https://raw.githubusercontent.com/bulutdev/Sinemapicon/main/digimax.png" group-title="TR - SINEMA",TR: DiGiMAX ANIMASYON HD
-http://blacksixtythree.tv:8080/Serdarsat/MDyq31Qu7T/1988
-#EXTINF:-1 tvg-id="" tvg-name="TR: FiberBox Aksiyon HD" tvg-logo="" group-title="TR - SINEMA",TR: FiberBox Aksiyon HD
-http://blacksixtythree.tv:8080/Serdarsat/MDyq31Qu7T/1520
-#EXTINF:-1 tvg-id="" tvg-name="TR: FiberBox Animasyon HD" tvg-logo="" group-title="TR - SINEMA",TR: FiberBox Animasyon HD
-http://blacksixtythree.tv:8080/Serdarsat/MDyq31Qu7T/939
-#EXTINF:-1 tvg-id="" tvg-name="TR: FiberBox BilimKurgu HD" tvg-logo="" group-title="TR - SINEMA",TR: FiberBox BilimKurgu HD
-http://blacksixtythree.tv:8080/Serdarsat/MDyq31Qu7T/48
-#EXTINF:-1 tvg-id="" tvg-name="TR: FiberBox Dram HD" tvg-logo="" group-title="TR - SINEMA",TR: FiberBox Dram HD
-http://blacksixtythree.tv:8080/Serdarsat/MDyq31Qu7T/608
-#EXTINF:-1 tvg-id="" tvg-name="TR: FiberBox Fantastik HD" tvg-logo="" group-title="TR - SINEMA",TR: FiberBox Fantastik HD
-http://blacksixtythree.tv:8080/Serdarsat/MDyq31Qu7T/518
-#EXTINF:-1 tvg-id="" tvg-name="TR: FiberBox Kemal Sunal HD" tvg-logo="" group-title="TR - SINEMA",TR: FiberBox Kemal Sunal HD
-http://blacksixtythree.tv:8080/Serdarsat/MDyq31Qu7T/1080
-#EXTINF:-1 tvg-id="" tvg-name="TR: FiberBox Komedi HD" tvg-logo="" group-title="TR - SINEMA",TR: FiberBox Komedi HD
-http://blacksixtythree.tv:8080/Serdarsat/MDyq31Qu7T/1566
