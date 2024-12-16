@@ -2,8 +2,8 @@ name: Update M3U File
 
 on:
   schedule:
-    # Her gün sabah 03:00'te çalışacak
-  cron: "*/1 * * * *"
+    # Her 1 dakikada bir çalışacak
+    - cron: "* * * * *"
   workflow_dispatch: # Manuel tetikleme desteği
 
 jobs:
