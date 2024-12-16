@@ -2,7 +2,8 @@ name: Update M3U File
 
 on:
   schedule:
-  - cron: "*/5 * * * *"  # Runs every 5 minutes
+    # Her gün sabah 03:00'te çalışacak
+    - cron: "0 3 * * *"
   workflow_dispatch: # Manuel tetikleme desteği
 
 jobs:
@@ -31,7 +32,7 @@ jobs:
         git config --global user.name "github-actions[bot]"
         git config --global user.email "github-actions[bot]@users.noreply.github.com"
         git add index.m3u
-        git commit -m "Update index.m3u file" || echo "No changes to commit"
+        git commit -m "Update index.m3u file"
         git push
       env:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
