@@ -23,14 +23,18 @@ def update_m3u_file(file_path, new_links):
         with open(file_path, 'r') as file:
             lines = file.readlines()
 
-        updated_lines = []
-        for line in lines:
-            if any(f"bein-sports-{i}" in line for i in range(1, 11)):  # bein-sports-1'den bein-sports-10'a kadar
-                for new_link in new_links:
-                    if f"bein-sports-{i}" in new_link:
-                        line = f"{new_link}\n"
-                        break
-            updated_lines.append(line)
+# Her bein-sports linkini yeni linklerle değiştir
+updated_lines = []
+for line in lines:
+    # bein-sports-1'den bein-sports-10'a kadar olan linkleri kontrol et
+    if any(f"bein-sports-{i}" in line for i in range(1, 11)):  
+        for new_link in new_links:
+            # Her bir new_link'i kontrol et
+            for i in range(1, 11):  # bein-sports-1'den bein-sports-10'a kadar
+                if f"bein-sports-{i}" in new_link:
+                    line = f"{new_link}\n"  # Linki güncelle
+                    break  # Bir kez eşleşme bulduğunda diğerlerini kontrol etme
+    updated_lines.append(line)  # Güncellenmiş satırı listeye ekle
 
         # Güncellenen dosyayı yaz
         with open(file_path, 'w') as file:
