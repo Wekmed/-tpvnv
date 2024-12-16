@@ -2,7 +2,7 @@ name: Update M3U File
 
 on:
   schedule:
-    - cron: '0 21 * * *'  # UTC'de her gün saat 21:00'de çalışır, bu Türkiye saatiyle 00:00'a denk gelir
+  - cron: "*/5 * * * *"  # Runs every 5 minutes
   workflow_dispatch: # Manuel tetikleme desteği
 
 jobs:
