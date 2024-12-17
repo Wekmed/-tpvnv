@@ -57,7 +57,7 @@ def update_m3u_file(file_path, new_links):
 
 if __name__ == "__main__":
     # Ana sayfa URL'si
-    base_url = "https://www.atomsportv366.top/"
+    base_url = "https://www.atomsportv367.top/"
 
     # M3U dosyasının yolu
     file_path = "index.m3u"
