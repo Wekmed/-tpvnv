@@ -1,30 +1,25 @@
 name: Update M3U File
 
 on:
+  workflow_dispatch:  # Manuel olarak çalıştırılabilir
   schedule:
-  - cron: "*/5 * * * *"  # Runs every 5 minutes
-  workflow_dispatch: # Manuel tetikleme desteği
-    
-  push:
-    branches:
-      - main
+    - cron: '*/5 * * * *'  # Her 5 dakikada bir çalıştır
 
 jobs:
-  update_m3u:
-    runs-on: self-hosted  # self-hosted runner kullanımı
+  update-m3u:
+    runs-on: self-hosted  # Self-hosted runner kullanılıyor
 
     steps:
-      - name: Checkout repository
-        uses: actions/checkout@v2
+    - name: Checkout repository
+      uses: actions/checkout@v3  # Depoyu çek
+      
+    - name: Install dependencies
+      run: |
+        python -m pip install --upgrade pip
+        pip install cloudscraper
 
-      - name: Install dependencies
-        run: |
-          python -m pip install --upgrade pip
-          pip install cloudscraper
-
-      - name: Update M3U file
-        run: |
-          python script.py   # script.py dosyanızın M3U güncellemesini çalıştıracak
+    - name: Run script.py to update M3U
+      run: python script.py  # M3U dosyasını güncelle
 
     - name: Check for changes and commit
       shell: pwsh
