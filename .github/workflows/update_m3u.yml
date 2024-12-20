@@ -1,40 +1,37 @@
-name: Update M3U and Run Scripts
+name: Update M3U File
 
 on:
-  push:
-    branches:
-      - main
+  # Workflow'u manuel olarak tetiklemek için workflow_dispatch kullanıyoruz
+  workflow_dispatch:
+  # Veya her 1 saatte bir çalışmasını sağlamak için cron kullanabilirsiniz
+  # schedule:
+  #   - cron: '0 * * * *'
 
 jobs:
-  update_m3u:
+  update-m3u:
     runs-on: windows-latest  # Windows ortamında çalışacak
     steps:
-      - name: Checkout code
-        uses: actions/checkout@v2
+      - name: Checkout repository
+        uses: actions/checkout@v2  # Repo'yu çekiyor
 
-      - name: Set up Python
+      - name: Setup Python
         uses: actions/setup-python@v2
         with:
-          python-version: '3.x'
+          python-version: '3.12'  # Python sürümünü belirtin
 
       - name: Install dependencies
         run: |
           python -m pip install --upgrade pip
-          pip install cloudscraper
+          pip install -r requirements.txt  # Eğer bir requirements.txt dosyanız varsa, burada yükleyin.
 
-      - name: Run CMD and Python Sequentially
+      - name: Run script.py to update M3U
         run: |
-          # CMD dosyasını başlatıyoruz
-          start-process cmd -ArgumentList '/c', 'start', '2_any_country_dnsredir.cmd' 
-          # CMD dosyasının tam olarak başlamasını bekliyoruz
-          sleep 5
-          # Python dosyasını başlatıyoruz
-          python script.py
+          python script.py  # Python dosyasını çalıştır
           
-      - name: Wait for channels_vavoo.m3u file to be created
+      - name: Commit and push updated M3U file
         run: |
-          echo "Waiting for channels_vavoo.m3u file to be created"
-          while [ ! -f channels_vavoo.m3u ]; do
-            sleep 10
-          done
-          echo "File channels_vavoo.m3u created successfully"
+          git config --global user.name 'github-actions'
+          git config --global user.email 'github-actions@github.com'
+          git add channels_vavoo.m3u
+          git commit -m 'Update channels_vavoo.m3u'
+          git push
