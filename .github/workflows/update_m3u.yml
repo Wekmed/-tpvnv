@@ -31,5 +31,10 @@ jobs:
         shell: powershell
         run: |
           git add channels_vavoo.m3u
-          git diff --cached --quiet || git commit -m "Update channels_vavoo.m3u file"
+          git diff --cached --quiet  
+          if ($?) {
+         echo "No changes detected."
+         } else {
+         git commit -m "Update channels_vavoo.m3u file"
+         }
           git push
