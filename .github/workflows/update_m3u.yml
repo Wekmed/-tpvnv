@@ -26,13 +26,8 @@ jobs:
         run: |
           python script.py   # script.py dosyanızın M3U güncellemesini çalıştıracak
 
-      # Git işlemi (commit ve push işlemi)
-      - name: Commit and push M3U file if updated
-        shell: pwsh
-        run: |
-          git add channels_vavoo.m3u
-          $diff = git diff --cached --quiet
-          if ($diff -ne $null) {
-            git commit -m "Update channels_vavoo.m3u file"
-          }
-          git push
+      - name: Upload updated M3U file
+        uses: actions/upload-artifact@v3
+        with:
+          name: updated-m3u
+          path: channels_vavoo.m3u
