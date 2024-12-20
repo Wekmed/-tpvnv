@@ -5,6 +5,7 @@ on:
   schedule:
     # Her 5 dakikada bir çalışacak şekilde ayarlandı
     - cron: '*/5 * * * *'
+    workflow_dispatch:
   push:
     branches:
       - main
