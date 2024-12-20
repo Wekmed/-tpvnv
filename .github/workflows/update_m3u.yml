@@ -26,9 +26,10 @@ jobs:
         run: |
           python script.py   # script.py dosyanızın M3U güncellemesini çalıştıracak
 
-      - name: Commit and push changes if M3U file updated
+      # Git işlemi (commit ve push işlemi)
+      - name: Commit and push M3U file if updated
+        shell: pwsh
         run: |
-          # Eğer script.py dosyasındaki M3U dosyası güncellenmişse, push et
           git add channels_vavoo.m3u
-          git commit -m "Update channels_vavoo.m3u file" || echo "No changes to commit"
+          git diff --cached --quiet || git commit -m "Update channels_vavoo.m3u file"
           git push
