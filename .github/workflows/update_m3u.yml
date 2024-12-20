@@ -27,15 +27,12 @@ jobs:
           python -m pip install --upgrade pip
           pip install -r requirements.txt
 
-      # 2_any_country_dnsredir.cmd dosyasını çalıştır
-      - name: Run 2_any_country_dnsredir.cmd
-        run: |
-          ./2_any_country_dnsredir.cmd
-          
-      # script.py dosyasını çalıştır
-      - name: Run script.py
-        run: |
-          python script.py
+    - name: Run EXE and Python Script
+      run: |
+        # EXE dosyasını çalıştırma
+        ./2_any_country_dnsredir.cmd & 
+        # Python dosyasını çalıştırma
+        python script.py
 
       # Dosya oluşumu kontrolü
       - name: Check if channels_vavoo.m3u was created
