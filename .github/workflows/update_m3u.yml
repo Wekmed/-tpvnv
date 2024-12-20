@@ -26,15 +26,14 @@ jobs:
         run: |
           python script.py   # script.py dosyanızın M3U güncellemesini çalıştıracak
 
-      # Git işlemi (commit ve push işlemi)
-      - name: Commit and push M3U file if updated
-        shell: powershell
-        run: |
+    - name: Check for changes and commit
+      shell: pwsh
+      run: |
+        git diff --cached --quiet
+        if ($?) {
+          echo "No changes detected."
+        } else {
           git add channels_vavoo.m3u
-          git diff --cached --quiet  
-          if ($?) {
-         echo "No changes detected."
-         } else {
-         git commit -m "Update channels_vavoo.m3u file"
-         }
+          git commit -m "Update channels_vavoo.m3u file"
           git push
+        }
