@@ -28,7 +28,6 @@ jobs:
 
       # Git işlemi (commit ve push işlemi)
       - name: Commit and push M3U file if updated
-        shell: pwsh
         run: |
           git add channels_vavoo.m3u
           git diff --cached --quiet || git commit -m "Update channels_vavoo.m3u file"
