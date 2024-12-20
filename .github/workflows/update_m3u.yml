@@ -1,45 +1,47 @@
-name: Run Scripts and Generate M3U
+name: Update M3U and Run Scripts
 
 on:
   push:
     branches:
-      - main  # Workflow'un çalışacağı branch
-  workflow_dispatch:  # Manuel tetikleme için
+      - main
 
 jobs:
-  build:
+  update_m3u:
     runs-on: windows-latest  # Windows ortamında çalışacak
-
     steps:
-      # Depoyu klonla
       - name: Checkout code
         uses: actions/checkout@v2
 
-      # Python ortamını kur
       - name: Set up Python
         uses: actions/setup-python@v2
         with:
           python-version: '3.x'
 
-      # Python bağımlılıklarını kur (eğer varsa requirements.txt dosyası)
       - name: Install dependencies
         run: |
           python -m pip install --upgrade pip
-          pip install -r requirements.txt
+          pip install cloudscraper
 
-    - name: Run EXE and Python Script
-      run: |
-        # EXE dosyasını çalıştırma
-        ./2_any_country_dnsredir.cmd & 
-        # Python dosyasını çalıştırma
-        python script.py
-
-      # Dosya oluşumu kontrolü
-      - name: Check if channels_vavoo.m3u was created
+      - name: Run CMD and Python Simultaneously
         run: |
-          if (Test-Path -Path "channels_vavoo.m3u") {
-            Write-Host "channels_vavoo.m3u dosyası başarıyla oluşturuldu."
-          } else {
-            Write-Host "channels_vavoo.m3u dosyası oluşturulamadı."
-            exit 1
-          }
+          python -c "
+          import subprocess; 
+          import time;
+          # CMD dosyasını başlatıyoruz
+          cmd_process = subprocess.Popen(['cmd', '/c', 'start', '2_any_country_dnsredir.cmd']);
+          # CMD dosyasının başlamasını beklemek için kısa bir süre
+          time.sleep(2);
+          # Python dosyasını başlatıyoruz
+          python_process = subprocess.Popen(['python', 'script.py']);
+          # Python ve CMD süreçlerinin tamamlanmasını bekliyoruz
+          python_process.wait();
+          cmd_process.wait();
+          "
+          
+      - name: Wait for channels_vavoo.m3u file to be created
+        run: |
+          echo "Waiting for channels_vavoo.m3u file to be created"
+          while [ ! -f channels_vavoo.m3u ]; do
+            sleep 10
+          done
+          echo "File channels_vavoo.m3u created successfully"
