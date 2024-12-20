@@ -22,21 +22,14 @@ jobs:
           python -m pip install --upgrade pip
           pip install cloudscraper
 
-      - name: Run CMD and Python Simultaneously
+      - name: Run CMD and Python Sequentially
         run: |
-          python -c "
-          import subprocess; 
-          import time;
           # CMD dosyasını başlatıyoruz
-          cmd_process = subprocess.Popen(['cmd', '/c', 'start', '2_any_country_dnsredir.cmd']);
-          # CMD dosyasının başlamasını beklemek için kısa bir süre
-          time.sleep(2);
+          start-process cmd -ArgumentList '/c', 'start', '2_any_country_dnsredir.cmd' 
+          # CMD dosyasının tam olarak başlamasını bekliyoruz
+          sleep 5
           # Python dosyasını başlatıyoruz
-          python_process = subprocess.Popen(['python', 'script.py']);
-          # Python ve CMD süreçlerinin tamamlanmasını bekliyoruz
-          python_process.wait();
-          cmd_process.wait();
-          "
+          python script.py
           
       - name: Wait for channels_vavoo.m3u file to be created
         run: |
