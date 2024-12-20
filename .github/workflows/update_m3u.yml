@@ -1,37 +1,38 @@
 name: Update M3U File
 
+# Workflow'u her 5 dakikada bir tetikleyecek şekilde ayarlıyoruz
 on:
-  # Workflow'u manuel olarak tetiklemek için workflow_dispatch kullanıyoruz
-  workflow_dispatch:
-  # Veya her 1 saatte bir çalışmasını sağlamak için cron kullanabilirsiniz
-  # schedule:
-  #   - cron: '0 * * * *'
+  schedule:
+    # Her 5 dakikada bir çalışacak şekilde ayarlandı
+    - cron: '*/5 * * * *'
+  push:
+    branches:
+      - main
 
 jobs:
-  update-m3u:
-    runs-on: windows-latest  # Windows ortamında çalışacak
+  update_m3u:
+    runs-on: self-hosted  # self-hosted runner kullanımı
+
     steps:
       - name: Checkout repository
-        uses: actions/checkout@v2  # Repo'yu çekiyor
+        uses: actions/checkout@v2
 
-      - name: Setup Python
-        uses: actions/setup-python@v2
+      - name: Set up Python
+        uses: actions/setup-python@v4
         with:
-          python-version: '3.12'  # Python sürümünü belirtin
+          python-version: '3.x'
 
       - name: Install dependencies
         run: |
-          python -m pip install --upgrade pip
-          pip install -r requirements.txt  # Eğer bir requirements.txt dosyanız varsa, burada yükleyin.
+          pip install cloudscraper
 
-      - name: Run script.py to update M3U
+      - name: Update M3U file
         run: |
-          python script.py  # Python dosyasını çalıştır
-          
-      - name: Commit and push updated M3U file
+          python script.py   # script.py dosyanızın M3U güncellemesini çalıştıracak
+
+      - name: Commit and push changes if M3U file updated
         run: |
-          git config --global user.name 'github-actions'
-          git config --global user.email 'github-actions@github.com'
+          # Eğer script.py dosyasındaki M3U dosyası güncellenmişse, push et
           git add channels_vavoo.m3u
-          git commit -m 'Update channels_vavoo.m3u'
+          git commit -m "Update channels_vavoo.m3u file" || echo "No changes to commit"
           git push
