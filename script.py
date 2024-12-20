@@ -1,72 +1,50 @@
 import requests
-import re
 
-def find_m3u8_links_from_homepage(base_url):
-    """Ana sayfadan 'bein-sports' içeren m3u8 linklerini bulur."""
-    headers = {
-        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36"
-    }
+# Kanal ID'leri ve isimleri
+channels = [
+    (406666682, "TRT 1 FHD"),
+    (3531762195, "S-SPORT"),
+    # Diğer kanal ID'lerinizi buraya ekleyin
+]
+
+# Hedef URL şablonu
+url_template = "https://vavoo.to/play/{channel_id}/index.m3u8"
+
+# Gerekli headers
+headers = {
+    "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36"
+}
+
+# Oturum oluştur (çerezler dahil)
+session = requests.Session()
+session.headers.update(headers)
+
+# m3u dosyası için içerik
+m3u_entries = ["#EXTM3U"]
+
+for channel_id, channel_name in channels:
+    # Hedef URL
+    url = url_template.format(channel_id=channel_id)
 
     try:
-        # Ana sayfaya istek gönder
-        response = requests.get(base_url, headers=headers, timeout=10)
-        response.raise_for_status()
+        # İstek gönder (çerezleri kullanarak)
+        response = session.get(url, allow_redirects=False)
 
-        # m3u8 linklerini ara
-        m3u8_links = re.findall(r"https?://[^\s]+\.m3u8", response.text)
+        # "Location" başlığından gerçek m3u8 bağlantısını al
+        if response.status_code == 302 and "Location" in response.headers:
+            m3u8_link = response.headers["Location"]
 
-        # Bein Sports içeren linkleri filtrele
-        bein_sports_links = [link for link in m3u8_links if "bein-sports" in link]
-
-        return bein_sports_links
-
-    except requests.exceptions.RequestException as e:
-        print(f"Hata oluştu: {e}")
-        return []
-
-def update_m3u_file(file_path, new_links):
-    """M3U dosyasındaki Bein Sports linklerini günceller."""
-    try:
-        with open(file_path, 'r', encoding='utf-8') as file:
-            lines = file.readlines()
-
-        # Güncelleme işlemi
-        updated_lines = []
-        for line in lines:
-            # Sadece bein-sports linklerini kontrol et
-            if "bein-sports" in line and line.strip().endswith(".m3u8"):
-                current_link = line.strip()
-                # Yeni link var mı, kontrol et
-                updated_link = next((new_link for new_link in new_links if current_link.split("/")[-1] in new_link), current_link)
-                if current_link != updated_link:
-                    print(f"Değiştiriliyor: {current_link} -> {updated_link}")
-                updated_lines.append(updated_link + "\n")
-            else:
-                updated_lines.append(line)
-
-        # Dosyayı güncelle
-        with open(file_path, 'w', encoding='utf-8') as file:
-            file.writelines(updated_lines)
-
-        print("M3U dosyası başarıyla güncellendi!")
-
-    except FileNotFoundError:
-        print(f"Hata: {file_path} bulunamadı!")
+            # m3u formatında giriş ekle
+            m3u_entries.append(f"#EXTINF:-1, {channel_name}")
+            m3u_entries.append(m3u8_link)
+            print(f"Kanal eklendi: {channel_name} -> {m3u8_link}")
+        else:
+            print(f"Kanal eklenemedi: {channel_name} (ID: {channel_id}) - HTTP {response.status_code}")
     except Exception as e:
-        print(f"Beklenmeyen bir hata oluştu: {e}")
+        print(f"Hata oluştu: {channel_name} (ID: {channel_id}) - {e}")
 
-if __name__ == "__main__":
-    # Ana sayfa URL'si
-    base_url = "https://www.atomsportv367.top/"
+# m3u dosyasını yaz
+with open("channels.m3u", "w", encoding="utf-8") as f:
+    f.write("\n".join(m3u_entries))
 
-    # M3U dosyasının yolu
-    file_path = "index.m3u"
-
-    # Ana sayfadan Bein Sports linklerini al
-    bein_sports_links = find_m3u8_links_from_homepage(base_url)
-
-    # Bulunan linklerle M3U dosyasını güncelle
-    if bein_sports_links:
-        update_m3u_file(file_path, bein_sports_links)
-    else:
-        print("Hiç Bein Sports yayın linki bulunamadı.")
+print("channels.m3u dosyası oluşturuldu.")
