@@ -1,11 +1,10 @@
 name: Update M3U File
 
-# Workflow'u her 5 dakikada bir tetikleyecek şekilde ayarlıyoruz
 on:
   schedule:
-    # Her 5 dakikada bir çalışacak şekilde ayarlandı
-    - cron: '*/5 * * * *'
-    workflow_dispatch:
+  - cron: "*/5 * * * *"  # Runs every 5 minutes
+  workflow_dispatch: # Manuel tetikleme desteği
+    
   push:
     branches:
       - main
