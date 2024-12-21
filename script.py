@@ -3,8 +3,8 @@ import cloudscraper
 # Kanal ID'leri ve isimleri
 channels = [
     (406666682, "TRT 1 FHD"),
-    (1371306270, "Kanal D FHD"),
-    (2395422638, "Show TV FHD"),
+    (1130441933, "Kanal D FHD"),
+    (351471337, "Show TV FHD"),
     (129909794, "ATV FHD"),
     (161305206, "NOW TV HD"),
     (2720556692, "Star TV FHD"),
