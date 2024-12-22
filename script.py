@@ -19,7 +19,7 @@ channels = [
     (1470199900, "HaberTurk"),
     (3571625991, "Dinamik Kemal Sunal"),
     (2337350974, "Dinamik Aksiyon"),
-    (1822425118, "Dinamik Animasyon),
+    (1822425118, "Dinamik Animasyon"),
     (884766068, "Dinamik Bilim Kurgu"),
     (1557465046, "Dinamik Fantastik"),
     (3270480503, "Ben 10"),
