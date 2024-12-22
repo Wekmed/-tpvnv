@@ -23,7 +23,7 @@ channels = [
     (884766068, "Dinamik Bilim Kurgu"),
     (1557465046, "Dinamik Fantastik"),
     (3270480503, "Ben 10"),
-    (2304301922, "Tom & Jerry"),
+    (4100185659, "Tom & Jerry"),
     (383348303, "Sirinler"),
     (2879086761, "Oscar Collerde"),
     (3029254675, "NICKELODEON"),
