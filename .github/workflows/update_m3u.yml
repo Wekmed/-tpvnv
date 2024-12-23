@@ -2,8 +2,6 @@ name: Update M3U File
 
 on:
   workflow_dispatch:  # Manuel olarak çalıştırılabilir
-  schedule:
-    - cron: '*/5 * * * *'  # Her 5 dakikada bir çalıştır
 
 jobs:
   update-m3u:
