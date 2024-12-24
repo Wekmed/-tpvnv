@@ -1,5 +1,5 @@
-import os
 import cloudscraper
+import os
 
 # Kanal ID'leri ve isimleri
 channels = [
@@ -40,7 +40,7 @@ channels = [
     (3407936242, "BEIN SPORTS MAX 2"),
     (3531762195, "S-SPORT"),
     (3943651030, "S-SPORT 2"),
-    # Buraya diğer kanalları ekleyin
+    # Diğer kanal ID'leri ve isimlerini buraya ekleyin
 ]
 
 # URL şablonu
@@ -49,37 +49,39 @@ url_template = "https://vavoo.to/play/{channel_id}/index.m3u8"
 # Cloudscraper oluştur
 scraper = cloudscraper.create_scraper()
 
-# HTTP başlıkları
+# HTTP Başlıkları
 headers = {
     "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36",
-    "Accept-Language": "tr-TR,tr;q=0.9,en;q=0.8",
 }
 
-# GitHub Pages için dosya dizini
-github_pages_dir = "github_pages"
-os.makedirs(github_pages_dir, exist_ok=True)
+# M3U dosyasını oluşturma
+m3u_entries = ["#EXTM3U"]
 
-# Kanalların M3U8 linklerini işleyin ve kaydedin
+# Kanallar için işlemleri başlat
 for channel_id, channel_name in channels:
     url = url_template.format(channel_id=channel_id)
+
     try:
         # İstek gönder ve yönlendirme başlığını al
         response = scraper.get(url, headers=headers, allow_redirects=False)
         if response.status_code == 302 and "Location" in response.headers:
             m3u8_link = response.headers["Location"]
 
-            # Kanal adıyla dosya oluştur (dosya adı geçerli karakterler içermeli)
-            file_name = f"{channel_name.replace(' ', '_').lower()}.m3u8"
-            file_path = os.path.join(github_pages_dir, file_name)
+            # GitHub.io URL'si oluştur
+            github_url = f"https://{os.environ['GITHUB_REPOSITORY_OWNER']}.github.io/{channel_name.replace(' ', '').lower()}.m3u8"
+            
+            # m3u dosyasına yeni linki ekle
+            m3u_entries.append(f"#EXTINF:-1, {channel_name}")
+            m3u_entries.append(github_url)
 
-            # Yeni linki dosyaya yaz
-            with open(file_path, "w", encoding="utf-8") as f:
-                f.write(m3u8_link)
-
-            print(f"{channel_name} için dosya güncellendi: {file_path}")
+            print(f"Kanal eklendi: {channel_name} -> {github_url}")
         else:
             print(f"Kanal eklenemedi: {channel_name} (ID: {channel_id}) - HTTP {response.status_code}")
     except Exception as e:
         print(f"Hata oluştu: {channel_name} (ID: {channel_id}) - {e}")
 
-print(f"Tüm M3U8 dosyaları '{github_pages_dir}' klasörüne kaydedildi.")
+# M3U dosyasını yazma
+with open("channels_vavoo.m3u", "w", encoding="utf-8") as f:
+    f.write("\n".join(m3u_entries))
+
+print("channels_vavoo.m3u dosyası başarıyla güncellendi.")
