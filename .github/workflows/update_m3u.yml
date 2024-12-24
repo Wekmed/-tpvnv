@@ -4,9 +4,9 @@ on:
   push:
     branches:
       - main
-  workflow_dispatch:  # Manuel olarak çalıştırılabilir
   schedule:
-    - cron: "0 * * * *"  # Her saat başı çalıştır
+    - cron: '*/30 * * * *' # Her 30 dakikada bir çalışır
+  workflow_dispatch: # Manuel olarak çalıştırma seçeneği
 
 jobs:
   update-m3u8:
