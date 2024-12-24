@@ -1,6 +1,6 @@
 #EXTM3U
 #EXTINF:-1, TRT 1 FHD
-https://Wekmed.github.io/trt1fhd.m3u8
+https://raw.githubusercontent.com/Wekmed/-tpvnv/refs/heads/main/docs/trt1fhd.m3u8
 #EXTINF:-1, Kanal D FHD
 https://Wekmed.github.io/kanaldfhd.m3u8
 #EXTINF:-1, Show TV FHD
