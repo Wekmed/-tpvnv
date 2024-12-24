@@ -6,9 +6,6 @@ channels = [
     (2851539143, "BEIN SPORTS 2"),
     (3410167560, "BEIN SPORTS 3"),
     (1872232768, "BEIN SPORTS 4"),
-    (4000315601, "BEIN SPORTS 5"),
-    (4071474743, "BEIN SPORTS MAX 1"),
-    (3407936242, "BEIN SPORTS MAX 2"),
     (3531762195, "S-SPORT"),
     (3943651030, "S-SPORT 2"),
     # Diğer kanal ID'lerinizi buraya ekleyin 
