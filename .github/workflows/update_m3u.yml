@@ -23,7 +23,7 @@ jobs:
           pip install cloudscraper
 
       - name: Run update script
-        run: python update_m3u8_links.py
+        run: python script.py
 
       - name: Commit and push changes
         run: |
