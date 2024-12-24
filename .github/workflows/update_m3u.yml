@@ -1,12 +1,12 @@
-name: Update M3U8 Links and Shorten URLs
+name: Update M3U8 Files
 
 on:
   schedule:
-    - cron: '*/30 * * * *' # Her 30 dakikada bir çalışacak
-  workflow_dispatch: # Manuel olarak çalıştırılabilir
+    - cron: '*/30 * * * *' # Her 30 dakikada bir çalışır
+  workflow_dispatch: # Manuel olarak da çalıştırılabilir
 
 jobs:
-  update-links:
+  update-m3u8:
     runs-on: self-hosted
 
     steps:
@@ -14,18 +14,17 @@ jobs:
         uses: actions/checkout@v3
 
       - name: Install dependencies
-        run: |
-          pip install cloudscraper
+        run: pip install cloudscraper
 
       - name: Run update script
-        run: python script.py
+        run: python update_m3u8_links.py
 
       - name: Commit and push changes
         run: |
           git config --local user.name "GitHub Actions"
           git config --local user.email "actions@github.com"
-          git add channels_vavoo.m3u
-          git commit -m "Update M3U8 links"
+          git add docs/*.m3u8
+          git commit -m "Update m3u8 files"
           git push
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
