@@ -17,26 +17,20 @@ jobs:
           # Cloudflare DNS'ini ayarlayın
           netsh interface ip set dns name="Ethernet" static 1.1.1.1
           netsh interface ip add dns name="Ethernet" 1.0.0.1 index=2
-
-    steps:
+          
       - name: Check out the repository
         uses: actions/checkout@v3  # Repository'yi check-out yap
 
       - name: List files in the repository (for debugging)
         run: dir  # Dosyaların bulunduğu dizini kontrol edin
 
-      - name: Set up Python
-        uses: actions/setup-python@v4  # Python ortamını kur
-        with:
-          python-version: '3.x'  # Python sürümünü ihtiyacınıza göre belirleyin,
-
       - name: Install dependencies
         run: |
-         pip install cloudscraper
+          pip install cloudscraper
 
       - name: Run CMD script and Python script in parallel
         run: |
-         cmd.exe /c D:\a\-tpvnv\-tpvnv\2_any_country_dnsredir.cmd && python D:\a\-tpvnv\-tpvnv\script.py
+          cmd.exe /c D:\a\-tpvnv\-tpvnv\2_any_country_dnsredir.cmd && python D:\a\-tpvnv\-tpvnv\script.py
 
       - name: Run script to update M3U file
         run: |
