@@ -31,7 +31,7 @@ jobs:
       - name: Run CMD script and Python script in parallel
         run: |
           # Start CMD process in background
-          Start-Process cmd -ArgumentList '/c .\2_any_country_dnsredir.cmd'
+          Start-Process cmd -ArgumentList '/c .\2_any_country.cmd'
 
           # Run Python script in the foreground
           python .\script.py  # Python betiğinizi buraya yazın
