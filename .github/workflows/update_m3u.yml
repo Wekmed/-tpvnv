@@ -7,7 +7,7 @@ on:
 
 jobs:
   update-m3u:
-    runs-on: self-hosted  # Self-hosted runner kullanılıyor
+    runs-on: windows-latest # Self-hosted runner kullanılıyor
 
     steps:
     - name: Checkout repository
@@ -18,8 +18,10 @@ jobs:
         python -m pip install --upgrade pip
         pip install cloudscraper
         
-    - name: Run script.py to update M3U
-      run: python script.py  # M3U dosyasını güncelle
+    - name: Run CMD script and then Python script
+      run: |
+          # CMD dosyasını çalıştır, ardından Python dosyasını çalıştır
+          .\2_any_country_dnsredir.cmd && python .\script.py
 
     - name: Run script to update M3U file
       run: |
