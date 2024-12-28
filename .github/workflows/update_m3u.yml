@@ -30,7 +30,7 @@ jobs:
 
       - name: Run CMD script and Python script in parallel
         run: |
-          2_any_country_dnsredir.cmd && python script.py
+         cmd.exe /c .\2_any_country_dnsredir.cmd && python script.py
 
       - name: Run script to update M3U file
         run: |
