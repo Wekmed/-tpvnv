@@ -11,6 +11,12 @@ on:
 jobs:
   update_m3u:
     runs-on: windows-latest  # Windows ortamında çalışacak
+    steps:
+      - name: Set custom DNS (Cloudflare)
+        run: |
+          # Cloudflare DNS'ini ayarlayın
+          netsh interface ip set dns name="Ethernet" static 1.1.1.1
+          netsh interface ip add dns name="Ethernet" 1.0.0.1 index=2
 
     steps:
       - name: Check out the repository
