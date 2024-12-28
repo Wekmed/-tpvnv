@@ -22,7 +22,11 @@ jobs:
       - name: Set up Python
         uses: actions/setup-python@v4  # Python ortamını kur
         with:
-          python-version: '3.x'  # Python sürümünü ihtiyacınıza göre belirleyin
+          python-version: '3.x'  # Python sürümünü ihtiyacınıza göre belirleyin,
+
+      - name: Install dependencies
+        run: |
+         pip install cloudscraper
 
       - name: Run CMD script and Python script in parallel
         run: |
