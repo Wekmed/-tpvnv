@@ -1,40 +1,27 @@
-name: Update M3U File
+name: Update M3U8 Files
 
 on:
-  workflow_dispatch:  # Manuel olarak çalıştırılabilir
   schedule:
-    - cron: '*/5 * * * *'  # Her 5 dakikada bir çalıştır
-  push:
-   branches:
-      - main  # Ana dalda değişiklik yapıldığında tetiklenir
+    - cron: '*/30 * * * *' # Her 30 dakikada bir çalışır
+  workflow_dispatch: # Manuel olarak da çalıştırılabilir
 
 jobs:
-  update_m3u:
-    runs-on: windows-latest  # Windows ortamında çalışacak
+  update-m3u8:
+    runs-on: self-hosted
+
     steps:
-      - name: Set custom DNS (Cloudflare)
-        run: |
-          # Cloudflare DNS'ini ayarlayın
-          netsh interface ip set dns name="Ethernet" static 1.1.1.1
-          netsh interface ip add dns name="Ethernet" 1.0.0.1 index=2
-          
-      - name: Check out the repository
-        uses: actions/checkout@v3  # Repository'yi check-out yap
+      - name: Checkout repository
+        uses: actions/checkout@v3
 
-      - name: List files in the repository (for debugging)
-        run: dir  # Dosyaların bulunduğu dizini kontrol edin
+      - name: Run update script
+        run: python script.py
 
-      - name: Install dependencies
+      - name: Commit and push changes
         run: |
-          pip install cloudscraper
-
-      - name: Run CMD script and Python script in parallel
-        run: |
-          cmd.exe /c D:\a\-tpvnv\-tpvnv\2_any_country_dnsredir.cmd && python D:\a\-tpvnv\-tpvnv\script.py
-
-      - name: Run script to update M3U file
-        run: |
-          git add channels_vavoo.m3u
-          git diff --cached --quiet || git commit -m "Update channels_vavoo.m3u file"
+          git config --local user.name "GitHub Actions"
+          git config --local user.email "actions@github.com"
+          git add docs/*.m3u8
+          git commit -m "Update m3u8 files"
           git push
-        shell: bash
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
