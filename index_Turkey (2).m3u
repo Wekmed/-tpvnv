@@ -1,0 +1,85 @@
+﻿#EXTM3U
+#EXTINF:-1 tvg-name="TRT1 HD"tvg-id="TRT1 HD"tvg-logo="https://upload.wikimedia.org/wikipedia/commons/6/6c/TRT_1_logo_%282012-2021%29.png",TRT1 HD
+http://192.168.1.121:5000/channel/TRT 1 FHD
+#EXTINF:-1 tvg-name="KANAL D HD"tvg-id="KANAL D HD"tvg-logo="https://upload.wikimedia.org/wikipedia/tr/c/ca/Kanal_D_logo.svg",KANAL D HD
+http://192.168.1.121:5000/channel/Kanal D FHD
+#EXTINF:-1 tvg-name="SHOW TV HD"tvg-id="SHOW TV HD"tvg-logo="https://upload.wikimedia.org/wikipedia/commons/f/f1/Logo_of_Show_TV.png",SHOW TV HD
+http://192.168.1.121:5000/channel/Show TV FHD
+#EXTINF:-1 tvg-name="ATV HD"tvg-id="ATV HD"tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSN0p6z3kOBR2kgTOT4gUeXniJri0QlaRyu8g&s",ATV HD
+http://192.168.1.121:5000/channel/ATV FHD
+#EXTINF:-1 tvg-name="NOW"tvg-id="NOW"tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQc6MehKwUjgTt_uJ5IhL3ejMuVaG0OUIdTYg&s",NOW
+http://192.168.1.121:5000/channel/NOW TV HD
+#EXTINF:-1 tvg-name="STAR TV HD"tvg-id="STAR TV HD"tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a4/StarTV.svg/1200px-StarTV.svg.png",STAR TV HD
+http://192.168.1.121:5000/channel/Star TV FHD
+#EXTINF:-1 tvg-name="TV8 HD"tvg-id="TV8 HD"tvg-logo="https://upload.wikimedia.org/wikipedia/tr/6/68/Tv8_Yeni_Logo.png",TV8 HD
+http://192.168.1.121:5000/channel/TV8 FHD
+#EXTINF:-1 tvg-name="TV8,5 HD"tvg-id="TV8,5 HD"tvg-logo="https://static.wikia.nocookie.net/logopedia/images/1/1f/TV8.5_Logosu.png/revision/latest?cb=20170827103605",TV8,5 HD
+http://192.168.1.121:5000/channel/TV8.5 FHD
+#EXTINF:-1 tvg-name="TEVE2 HD"tvg-id="TEVE2 HD"tvg-logo="https://upload.wikimedia.org/wikipedia/en/c/ca/Teve2_logo.png",TEVE2 HD
+http://192.168.1.121:5000/channel/TEVE 2 FHD
+#EXTINF:-1 tvg-name="TLC"tvg-id="TLC"tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/a/af/TLC-Logo_2016.png/800px-TLC-Logo_2016.png",TLC
+http://192.168.1.121:5000/channel/TLC FHD
+#EXTINF:-1 tvg-name="DMAX HD"tvg-id="DMAX HD"tvg-logo="https://getvectorlogo.com/wp-content/uploads/2019/07/dmax-vector-logo-xs.png",DMAX HD
+http://192.168.1.121:5000/channel/Dmax FHD
+#EXTINF:-1 tvg-name="History Channel"tvg-id="History Channel"tvg-logo="https://upload.wikimedia.org/wikipedia/commons/f/f5/History_Logo.svg",History Channel
+http://192.168.1.121:5000/channel/History Channel
+#EXTINF:-1 tvg-name="Kemal Sunal"tvg-id=""tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRPNf0r4k1Qt4oTYknc-WsrQo2A3d0Upd0P9g&s",Kemal Sunal
+http://192.168.1.121:5000/channel/Kemal Sunal
+#EXTINF:-1 tvg-name="Güldür Güldür" tvg-language="Turkish" tvg-country="TR" tvg-id="icerik_GuldurGuldur" tvg-logo="https://i.ytimg.com/vi/JX5mSkUfxmk/hqdefault.jpg" group-title="İçerik",Güldür Güldür
+http://xcgold1907.xyz:8080/abone2779.01/tS6YBCZhbqqY/428985
+#EXTINF:-1 tvg-name="TRT HABER HD"tvg-id="TRT HABER HD"tvg-logo="https://banner2.cleanpng.com/20180906/qrr/kisspng-logo-product-design-brand-font-trkiyenin-ve-dnyann-lk-nsans-robot-5b912b837cf801.0492455115362405155119.jpg",TRT HABER HD
+http://192.168.1.121:5000/channel/TRT HABER
+#EXTINF:-1 tvg-name="NTV HD"tvg-id="NTV HD"tvg-logo="https://upload.wikimedia.org/wikipedia/commons/b/b5/NTV_logo.png",NTV HD
+http://192.168.1.121:5000/channel/NTV
+#EXTINF:-1 tvg-name="HABERTÜRK HD"tvg-id="HABERTÜRK HD"tvg-logo="https://upload.wikimedia.org/wikipedia/commons/7/78/Haberturk_logo.png",HABERTÜRK HD
+http://192.168.1.121:5000/channel/HaberTurk
+#EXTINF:-1 tvg-name="HALK TV"tvg-id="HALK TV"tvg-logo="https://upload.wikimedia.org/wikipedia/commons/4/42/Halk_TV_logo.png",HALK TV
+http://192.168.1.121:5000/channel/Halk TV
+#EXTINF:-1 tvg-name="TRT SPOR HD"tvg-id="TRT SPOR HD"tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/9/92/TRT_Spor_logo_%282022%29.svg/2560px-TRT_Spor_logo_%282022%29.svg.png",TRT SPOR HD
+http://192.168.1.121:5000/channel/TRT SPOR
+#EXTINF:-1 tvg-name="BEIN SPORTS HABER "tvg-id="beIN SPORTS HABER"tvg-logo="https://upload.wikimedia.org/wikipedia/commons/a/a8/BeIN_Sports_Haber.png",beIN SPORTS HABER
+http://192.168.1.121:5000/channel/BEIN SPORTS HABER
+#EXTINF:-1 tvg-name="S-SPORT 1 UHD "tvg-id="S SPORT.tr"tvg-logo="https://upload.wikimedia.org/wikipedia/commons/3/32/Ssport-plus-.png",S-SPORT 1 UHD
+http://192.168.1.121:5000/channel/S-SPORT
+#EXTINF:-1 tvg-name="S-SPORT 2 UHD "tvg-id="S SPORT 2.tr"tvg-logo="https://upload.wikimedia.org/wikipedia/commons/3/32/Ssport-plus-.png",S-SPORT 2 UHD
+http://192.168.1.121:5000/channel/S-SPORT 2
+#EXTINF:-1 tvg-name="beIN SPORTS 1"tvg-id="beIN SPORTS 1"tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e5/Logo_bein_sports_1.png/1200px-Logo_bein_sports_1.png",beIN SPORTS 1
+http://192.168.1.121:5000/channel/BEIN SPORTS 1
+#EXTINF:-1 tvg-name="beIN SPORTS 2"tvg-id="beIN SPORTS 2"tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c9/Logo_bein_sports_2.png/1200px-Logo_bein_sports_2.png",beIN SPORTS 2
+http://192.168.1.121:5000/channel/BEIN SPORTS 2
+#EXTINF:-1 tvg-name="beIN SPORTS 3"tvg-id="beIN SPORTS 3"tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c4/Logo_bein_sports_3.png/1200px-Logo_bein_sports_3.png",beIN SPORTS 3
+http://192.168.1.121:5000/channel/BEIN SPORTS 3
+#EXTINF:-1 tvg-name="beIN SPORTS 4"tvg-id="beIN SPORTS 4"tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/9/96/Logo_bein_sports_4.png/1200px-Logo_bein_sports_4.png",beIN SPORTS 4
+http://192.168.1.121:5000/channel/BEIN SPORTS 4
+#EXTINF:-1 tvg-name="beIN SPORTS 5"tvg-id="beIN SPORTS 5"tvg-logo="",BEIN SPORTS 5 FHD
+http://192.168.1.121:5000/channel/BEIN SPORTS 5
+#EXTINF:-1 tvg-name="beIN SPORTS MAX 1"tvg-id="beIN SPORTS MAX 1"tvg-logo="",BEIN SPORTS MAX 1
+http://192.168.1.121:5000/channel/BEIN SPORTS MAX 1
+#EXTINF:-1 tvg-name="beIN SPORTS MAX 2"tvg-id="beIN SPORTS MAX 2"tvg-logo="",BEIN SPORTS MAX 2
+http://192.168.1.121:5000/channel/BEIN SPORTS MAX 2
+#EXTINF:-1 tvg-name="TABII SPOR HD "tvg-id=""tvg-logo="",TABII SPOR HD
+http://192.168.1.121:5000/channel/
+#EXTINF:-1 tvg-name="TABII SPOR 6 UHD "tvg-id=""tvg-logo="",TABII SPOR 6 UHD
+http://192.168.1.121:5000/channel/
+#EXTINF:-1 tvg-name="TABII SPOR 5 UHD "tvg-id=""tvg-logo="",TABII SPOR 5 UHD
+http://192.168.1.121:5000/channel/
+#EXTINF:-1 tvg-name="TABII SPOR 4 UHD "tvg-id=""tvg-logo="",TABII SPOR 4 UHD
+http://192.168.1.121:5000/channel/
+#EXTINF:-1 tvg-name="TABII SPOR 3 UHD "tvg-id=""tvg-logo="",TABII SPOR 3 UHD
+http://192.168.1.121:5000/channel/
+#EXTINF:-1 tvg-name="TABII SPOR 2 UHD "tvg-id=""tvg-logo="",TABII SPOR 2 UHD
+http://192.168.1.121:5000/channel/
+#EXTINF:-1 tvg-name="TABII SPOR 1 UHD "tvg-id=""tvg-logo="",TABII SPOR 1 UHD
+http://192.168.1.121:5000/channel/
+#EXTINF:-1 xui-id="{XUI_ID}" tvg-id="" tvg-name="ŞİRİNLER " tvg-logo="https://i.imgur.com/uV91ruA.png",ŞİRİNLER 
+http://xcgold1907.xyz:8080/BeratAkyol/mXUpRNw/494441
+#EXTINF:-1 xui-id="{XUI_ID}" tvg-id="" tvg-name="TOM VE JERRY" tvg-logo="https://i.imgur.com/IRvkWO2.png",TOM VE JERRY
+http://xcgold1907.xyz:8080/BeratAkyol/mXUpRNw/525376
+#EXTINF:-1 xui-id="{XUI_ID}" tvg-id="" tvg-name="SCOOBY DOO" tvg-logo="https://i.imgur.com/XELgaHc.png",SCOOBY DOO
+http://xcgold1907.xyz:8080/BeratAkyol/mXUpRNw/494431
+#EXTINF:-1 xui-id="{XUI_ID}" tvg-id="" tvg-name="LEGO" tvg-logo="https://i.imgur.com/Y7HfiTw.png",LEGO
+http://xcgold1907.xyz:8080/BeratAkyol/mXUpRNw/528552
+#EXTINF:-1 xui-id="{XUI_ID}" tvg-id="" tvg-name="SÜNGERBOB" tvg-logo="https://i.imgur.com/610uPK6.png" ,SÜNGERBOB
+http://xcgold1907.xyz:8080/BeratAkyol/mXUpRNw/216175
+#EXTINF:-1 xui-id="{XUI_ID}" tvg-id="" tvg-name="KRAL SAKIR" tvg-logo="https://i.imgur.com/610uPK6.png" ,KRAL SAKIR
+http://xcgold1907.xyz:8080/BeratAkyol/mXUpRNw/216168
